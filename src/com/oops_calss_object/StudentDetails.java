@@ -20,12 +20,18 @@ public class StudentDetails {
     public static void main(String[] args) {
 
         StudentDetails st = new StudentDetails();
-
         st.studentId = 101;
         st.name = "Rajesh";
         st.department = "Software Engineering";
         st.marks = 80;
-
         st.displayDetails();
+
+        StudentDetails st1 = new StudentDetails();
+        st1.studentId = 102;
+        st1.name = "Raju";
+        st1.department = "ECE";
+        st1.marks = 30;
+
+        st1.displayDetails();
     }
 }
