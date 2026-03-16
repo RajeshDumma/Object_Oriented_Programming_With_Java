@@ -1,3 +1,5 @@
+package com.oops_calss_object;
+
 class Student {
 
     int id;
